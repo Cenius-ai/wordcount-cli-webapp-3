@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wordcount"
+version = "1.0.0"
+description = "Count the words in one UTF-8 text file. Standard library only."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+dependencies = []
+classifiers = [
+    "Environment :: Console",
+    "Programming Language :: Python :: 3",
+    "Topic :: Text Processing :: Linguistic",
+]
+
+[project.scripts]
+# The console entry point: `wordcount FILE`.  `python3 wordcount.py FILE`
+# keeps working identically; both call the same main().
+wordcount = "wordcount:main"
+
+[tool.setuptools]
+py-modules = ["wordcount"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

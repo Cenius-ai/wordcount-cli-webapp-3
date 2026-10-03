@@ -1,0 +1,7 @@
+# wordcount.py itself imports only the Python standard library -- there is
+# nothing to install in order to run the tool.
+#
+# pytest is listed here because it is the test runner for the suite in tests/,
+# and the declared dependency manifest is the one place a fresh checkout can
+# discover it.  Install this file (or nothing at all) and the CLI still runs.
+pytest==9.1.1
