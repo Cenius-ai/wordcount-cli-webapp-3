@@ -95,7 +95,7 @@ See [`INSTALL.md`](INSTALL.md) for full setup and usage instructions.
 
 ## Architecture
 
-Folder layout: `examples/`, `tests/`, `wordcount.egg-info/`. One command (`./install.sh`) covers dependency setup and demo-data seeding. Built in Full-stack app (35 files). Step-by-step setup guide: [`INSTALL.md`](INSTALL.md).
+Folder layout: `examples/`, `tests/`, `wordcount.egg-info/`. One command (`./install.sh`) covers dependency setup and demo-data seeding. Built in Full-stack app (25 files). Step-by-step setup guide: [`INSTALL.md`](INSTALL.md).
 
 ## FAQ
 
